@@ -1,0 +1,155 @@
+@media screen and (min-width: 550px) {
+  /* ---------- upcoming movies ---------- */
+  .upcoming-moviecard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- top rated ---------- */
+  .top-moviecard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- tv series ---------- */
+  .series-moviecard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ---------------------------------------- */
+}
+
+@media screen and (min-width: 760px) {
+  /* ---------- trail ---------- */
+  .trail-form-box {
+    width: 80%;
+    background-color: var(--white);
+    box-shadow: 0 3px 4px hsla(0, 0%, 0%, 0.2);
+  }
+
+  .trail-form {
+    flex-direction: row;
+  }
+
+  .email-field {
+    width: 75%;
+    margin: 0;
+  }
+
+  .trail-btn {
+    margin-right: 2px;
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- footer ---------- */
+  .footer-wrapper,
+  .quicklink-wrapper,
+  .footer-bottom-container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  /* ---------------------------------------- */
+}
+
+@media screen and (min-width: 990px) {
+  /* ---------- header ---------- */
+  .lang-wrapper {
+    display: block;
+  }
+
+  .navbar-list {
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    height: 0;
+    position: static;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- upcoming movies ---------- */
+  .upcoming-wrapper {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .upcoming-text {
+    text-align: left;
+  }
+
+  .upcoming-moviecard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- service ---------- */
+  .service-container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .service-image,
+  .service-content {
+    width: calc(50% - 50px);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- top rated ---------- */
+  .top-moviecard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- tv series ---------- */
+  .series-moviecard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- trial ---------- */
+  .trail-content {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .trail-text-content {
+    width: 60%;
+  }
+
+  .trail-form-box {
+    width: 60%;
+  }
+
+  .email-field {
+    width: 65%;
+  }
+  /* ---------------------------------------- */
+}
+
+@media screen and (min-width: 1100px) {
+  /* ---------- header ---------- */
+  .sign-in {
+    display: block;
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- upcoming movies ---------- */
+  .upcoming-moviecard {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- top rated ---------- */
+  .top-moviecard {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  /* ---------------------------------------- */
+
+  /* ---------- tv series ---------- */
+  .series-moviecard {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  /* ---------------------------------------- */
+}

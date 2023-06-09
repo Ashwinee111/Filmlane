@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Movie WebPage" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ashwinee Kumar Sethi" />
+    <title>Filmlane - Best movie collections</title>
+    <!-- custom css  -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- --------------header-------------- -->
+    <header>
+      <div class="container flex header-content">
+        <div class="main-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+        <nav class="navbar">
+          <ul class="navbar-list flex">
+            <li><a href="#home" class="navbar-links">HOME</a></li>
+            <li><a href="#movie" class="navbar-links">MOVIE</a></li>
+            <li><a href="#tv-show" class="navbar-links">TV SHOW</a></li>
+            <li><a href="#web-series" class="navbar-links">WEB SERIES</a></li>
+            <li><a href="#pricing" class="navbar-links">PRICING</a></li>
+          </ul>
+        </nav>
+        <div class="lang-wrapper">
+          <label for="language">
+            <i class="fa-solid fa-globe"></i>
+          </label>
+          <select name="language" id="language">
+            <option value="en">English</option>
+            <option value="hin">Hindi</option>
+          </select>
+        </div>
+        <div class="sign-in">
+          <input type="button" value="SIGN IN" class="btn-primary" />
+        </div>
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- --------------hero-------------- -->
+    <main id="home">
+      <div class="container flex hero-container">
+        <div class="hero-content">
+          <p class="hero-subtitle">Filmlane</p>
+          <h1 class="hero-title">
+            <strong
+              >Unlimited <span>Movie</span>, TVs Shows, &amp; More.</strong
+            >
+          </h1>
+          <div class="wrapper flex">
+            <div class="badge flex">
+              <h4 class="badge-fill">18+</h4>
+              <h4 class="badge-outline">HD</h4>
+            </div>
+            <div class="wrapper-title flex">
+              <h4><a href="#" class="title">Romance,</a></h4>
+              <h4><a href="#" class="title">Drama</a></h4>
+            </div>
+            <div class="date-time flex">
+              <div class="date flex">
+                <i class="fa-solid fa-calendar-days"></i>
+                <h5>2023</h5>
+              </div>
+              <div class="time flex">
+                <i class="fa-solid fa-clock"></i>
+                <h5>128 min</h5>
+              </div>
+            </div>
+          </div>
+          <button class="watch-btn btn-primary flex">
+            <i class="fa-solid fa-play"></i>
+            <span>Watch now</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- --------------upcoming movies-------------- -->
+    <section class="upcoming" id="movie">
+      <div class="container">
+        <div class="upcoming-wrapper flex">
+          <div class="upcoming-text">
+            <p class="upcoming-sub-title">ONLINE STREAMING</p>
+            <h2 class="upcoming-main-title">Upcoming Movies</h2>
+          </div>
+          <div class="filter-box flex">
+            <a href="#anchor-1" class="filter-btn">Movies</a>
+            <a href="#anchor-1" class="filter-btn">TV Shows</a>
+            <a href="#anchor-1" class="filter-btn">Anime</a>
+          </div>
+        </div>
+
+        <div class="upcoming-moviecard">
+          <div class="movie-card">
+            <img src="images/upcoming-1.png" alt="upcoming-image" />
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">The Northman</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">HD</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 137 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 8.5
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/upcoming-2.png" alt="upcoming-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">
+                Doctor Strange in the Multiverse of Madness
+              </h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">4K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 126 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> NR
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/upcoming-3.png" alt="upcoming-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Memory</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">2K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> N/A
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> NR
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/upcoming-4.png" alt="upcoming-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">
+                The Unbearable Weight of Massive Talent
+              </h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">HD</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 107 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> NR
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------service-------------- -->
+    <section class="service">
+      <div class="container service-container flex">
+        <div class="service-image">
+          <img src="images/service-banner.jpg" alt="" />
+        </div>
+        <div class="service-content">
+          <p class="service-subtitle">OUR SERVICES</p>
+          <h2 class="service-title">Download Your Shows Watch Offline.</h2>
+          <p class="service-text">
+            Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod
+            tempor.There are many variations of passages of lorem Ipsum
+            available, but the majority have suffered alteration in some
+            injected humour.
+          </p>
+          <div class="service-list">
+            <div class="first-service flex">
+              <div class="tv-icon">
+                <i class="fa-solid fa-tv"></i>
+              </div>
+              <div>
+                <h3>Enjoy on Your TV.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do
+                  eiusmod tempor.
+                </p>
+              </div>
+            </div>
+            <div class="second-service flex">
+              <div class="video-icon">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div>
+                <h3>Watch Everywhere.</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do
+                  eiusmod tempor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------top rated-------------- -->
+    <section class="top-rated" id="tv-show">
+      <div class="container">
+        <p class="top-rated-subtitle">ONLINE STREAMING</p>
+        <h2 class="top-rated-title">Top Rated Movies</h2>
+        <div class="filter-box flex">
+          <a href="#anchor-1" class="top-rated-btn">MOVIES</a>
+          <a href="#anchor-1" class="top-rated-btn">TV SHOWS</a>
+          <a href="#anchor-1" class="top-rated-btn">DOCUMENTARY</a>
+          <a href="#anchor-1" class="top-rated-btn">SPORTS</a>
+        </div>
+
+        <div class="top-moviecard">
+          <div class="movie-card">
+            <img src="images/movie-1.png" alt="top-rated-image" />
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Sonic the Hedgehog 2</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">2K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 122 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 7.8
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/movie-2.png" alt="top-rated-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Morbius</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">HD</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 104 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 5.9
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/movie-3.png" alt="top-rated-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">The Adam Project</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">4K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 106 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 7.0
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/movie-4.png" alt="top-rated-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Free Guy</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">4K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 115 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 7.7
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/movie-5.png" alt="top-rated-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">The Batman</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">4K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 176 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 7.9
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/movie-6.png" alt="top-rated-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Uncharted</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">HD</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 116 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 7.0
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/movie-7.png" alt="top-rated-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Death on the Nile</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">2K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 127 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 6.5
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/movie-8.png" alt="top-rated-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">The King's Man</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">HD</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 131 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 7.0
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------tv series-------------- -->
+    <section class="tv-series" id="web-series">
+      <div class="container">
+        <p class="tv-series-subtitle">BEST TV SERIES</p>
+        <h2 class="tv-series-title">World Best TV Series</h2>
+
+        <div class="series-moviecard">
+          <div class="movie-card">
+            <img src="images/series-1.png" alt="web-series-image" />
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Moon Knight</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">2K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 47 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 8.6
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/series-2.png" alt="web-series-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Halo</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">2K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 59 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 8.8
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/series-3.png" alt="web-series-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Vikings: Valhalla</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">2K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 51 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 8.3
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <img src="images/series-4.png" alt="web-series-image" />
+
+            <div class="movie-text-container flex">
+              <h3 class="movie-name">Money Heist</h3>
+              <h4 class="movie-year">2023</h4>
+            </div>
+            <div class="movie-text-container flex">
+              <h4 class="movie-quality">4K</h4>
+              <div class="duration flex">
+                <h6 class="movie-duration">
+                  <span><i class="fa-solid fa-clock"></i></span> 70 min
+                </h6>
+                <h6 class="movie-rating">
+                  <span><i class="fa-sharp fa-solid fa-star"></i></span> 8.3
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------trial-------------- -->
+    <section class="trail" id="pricing">
+      <div class="container flex trail-content">
+        <div class="trail-text-content">
+          <h2 class="trail-title">TRIAL START FIRST 30 DAYS.</h2>
+          <p class="trail-text">
+            Enter your email to create or restart your membership.
+          </p>
+        </div>
+        <div class="trail-form-box">
+          <form class="flex trail-form">
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+              class="email-field"
+              autocomplete="off"
+            />
+            <button type="submit" class="trail-btn">GET STARTED</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------footer-------------- -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="container">
+          <div class="flex footer-wrapper">
+            <div class="main-logo">
+              <img src="images/logo.svg" alt="logo" />
+            </div>
+            <div class="footer-bar">
+              <ul class="footer-list flex">
+                <li><a href="#home" class="footer-links">HOME</a></li>
+                <li><a href="#movie" class="footer-links">MOVIE</a></li>
+                <li><a href="#tv-show" class="footer-links">TV SHOW</a></li>
+                <li>
+                  <a href="#web-series" class="footer-links">WEB SERIES</a>
+                </li>
+                <li><a href="#pricing" class="footer-links">PRICING</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="quicklink-wrapper flex">
+            <div class="footer-bar">
+              <ul class="flex quicklink-links">
+                <li><a href="#anchor-1" class="quicklink-link">FAQ</a></li>
+                <li>
+                  <a href="#anchor-1" class="quicklink-link">HELP CENTER</a>
+                </li>
+                <li>
+                  <a href="#anchor-1" class="quicklink-link">TERMS OF USE</a>
+                </li>
+                <li><a href="#anchor-1" class="quicklink-link">PRIVACY</a></li>
+              </ul>
+            </div>
+            <div class="footer-bar">
+              <ul class="flex footer-icons">
+                <li>
+                  <a href="#" class="footer-icon"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="footer-icon"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="footer-icon"
+                    ><i class="fa-brands fa-pinterest"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="footer-icon"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container flex footer-bottom-container">
+          <p class="copyright">
+            @ 2023 <span>ashwinee</span>. All Rights Reserved
+          </p>
+          <img src="images/footer-bottom-img.png" class="payment-img" alt="payment-image"/>
+        </div>
+      </div>
+    </footer>
+
+    <!-- custom js  -->
+    <script src="index.js"></script>
+    <!-- icon cdn -->
+    <script
+      src="https://kit.fontawesome.com/47478b80fe.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
